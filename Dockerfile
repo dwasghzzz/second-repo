@@ -2,7 +2,7 @@ FROM node
 
 WORKDIR /app
 
-COPY /vite-project .
+COPY . .
 
 EXPOSE 3000
 
